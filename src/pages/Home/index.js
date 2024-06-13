@@ -24,9 +24,9 @@ export default function Home() {
 
     const [DarkTheme, setDarkTheme] = useState(true)
 
-    const [currentTemperature, setCurrentTemperature] = useState('27')
+    const [currentTemperature, setCurrentTemperature] = useState('18')
     const [locaton, setLocation] = useState('BR, Franca-SP')
-    const [currentHoras, setCurrentHoras] = useState('22h')
+    const [currentHoras, setCurrentHoras] = useState('21h53')
 
     const [wind, setWind] = useState('65')
     const [umidity, seUmidity] = useState('80')
